@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'cd C:\Users\Anton_Markov1\Desktop\MAY DAY && start pepega.png'
+                cd C:\Users\Anton_Markov1\Desktop\MAY DAY && start pepega.png
             }
         }
         stage('Test') {
