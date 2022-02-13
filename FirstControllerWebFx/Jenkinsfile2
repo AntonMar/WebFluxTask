@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-               bat 'start pepega.png'
+               bat 'start pepa.jpg'
             }
         }
         stage('Test') {
